@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Lotteria">
+	<parameter name="url" value="https://www.lotteria.vn/" />
+
+	<test name="Run on Chorme">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.lotteria.user.Verify" />
+		</classes>
+	</test>
+</suite>
